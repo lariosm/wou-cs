@@ -1,0 +1,44 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_101\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\srosilesmalagon14\Documents\Exceptions
+-d
+C:\Users\srosilesmalagon14\Documents\Exceptions\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\srosilesmalagon14\Documents\Exceptions\AccountServer.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\srosilesmalagon14\Documents\Exceptions\AccountServer.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_101
+Building tree for all the packages and classes...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\AccountServer.html...
+C:\Users\srosilesmalagon14\Documents\Exceptions\AccountServer.java:27: warning - @param argument "int" is not a parameter name.
+C:\Users\srosilesmalagon14\Documents\Exceptions\AccountServer.java:43: warning - @param argument "int" is not a parameter name.
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\package-frame.html...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\package-summary.html...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\allclasses-frame.html...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\allclasses-noframe.html...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\index.html...
+Generating C:\Users\srosilesmalagon14\Documents\Exceptions\doc\stylesheet.css...
+2 warnings

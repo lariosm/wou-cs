@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=make\ model\ doors\ vin\ color\ bedLength\ offRoad
+comment0.target=Truck(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Non-default\ constructor\ for\ objects\ of\ the\ class\ Truck\r\n\ \r\n\ @param\ make\ \ \ \ \ \ \ \ \ the\ make\ of\ the\ truck\r\n\ @param\ model\ \ \ \ \ \ \ \ the\ model\ of\ the\ truck\r\n\ @param\ doors\ \ \ \ \ \ \ \ the\ number\ of\ doors\ on\ the\ truck\r\n\ @param\ vin\ \ \ \ \ \ \ \ \ \ the\ vin\ number\ of\ the\ truck\r\n\ @param\ color\ \ \ \ \ \ \ \ the\ color\ of\ the\ truck\r\n\ @param\ bedLength\ \ \ \ the\ bed\ length\ of\ the\ truck\r\n\ @param\ offRoad\ \ \ \ \ \ the\ transmission\ type\ of\ 2x4\ or\ 4x4\r\n
+comment1.params=
+comment1.target=java.lang.String\ getBedLength()
+comment1.text=\r\n\ Get\ the\ bed\ length\ of\ the\ truck\r\n\ \r\n\ @return\ bedLength\ \ \ \ the\ bed\ length\ of\ the\ truck\r\n
+comment2.params=newBedLength
+comment2.target=void\ setBedLength(java.lang.String)
+comment2.text=\r\n\ Set\ the\ bed\ length\ of\ the\ truck\r\n\ \r\n\ @param\ newBedLength\ \ \ \ changes\ the\ bed\ length\ of\ the\ truck\r\n
+comment3.params=
+comment3.target=java.lang.String\ getOffRoad()
+comment3.text=\r\n\ Get\ the\ transmission\ type\ of\ 2x4\ or\ 4x4\r\n\ \r\n\ @return\ offRoad\ \ \ \ the\ type\ of\ transmission\ on\ the\ truck\r\n
+comment4.params=newOffRoad
+comment4.target=void\ setOffRoad(java.lang.String)
+comment4.text=\r\n\ Set\ the\ transmission\ type\ of\ 2x4\ or\ 4x4\r\n\ \r\n\ @param\ newOffRoad\ \ \ \ changes\ the\ transmission\ type\ of\ the\ truck\r\n
+comment5.params=
+comment5.target=void\ printDetails()
+comment5.text=\r\n\ Print\ to\ the\ screen\ the\ description\ of\ the\ Truck\ object\r\n
+numComments=6

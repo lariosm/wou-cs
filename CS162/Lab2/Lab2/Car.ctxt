@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=make\ model\ doors\ vin\ color\ carType\ autoPackage
+comment0.target=Car(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Non-default\ constructor\ for\ objects\ of\ the\ class\ Car\r\n\ \r\n\ @param\ make\ \ \ \ \ \ \ \ the\ make\ of\ the\ car\r\n\ @param\ model\ \ \ \ \ \ \ the\ model\ of\ the\ car\r\n\ @param\ doors\ \ \ \ \ \ \ the\ number\ of\ doors\ on\ the\ car\r\n\ @param\ vin\ \ \ \ \ \ \ \ \ the\ vin\ number\ of\ the\ car\r\n\ @param\ color\ \ \ \ \ \ \ the\ color\ of\ the\ car\r\n\ @param\ carType\ \ \ \ \ the\ type\ of\ car\ style;\ CE,\ LE,\ or\ Sport\r\n\ @param\ autoPackage\ the\ wheel\ size\ of\ the\ car\r\n
+comment1.params=
+comment1.target=java.lang.String\ getCarType()
+comment1.text=\r\n\ Get\ the\ car\ style;\ CE,\ LE,\ or\ Sport\r\n\ \r\n\ @return\ car\ \ \ Type\ the\ car\ style\r\n
+comment2.params=newCarType
+comment2.target=void\ setCarType(java.lang.String)
+comment2.text=\r\n\ Set\ the\ style\ of\ the\ car\r\n\ \r\n\ @param\ newCar\ \ \ Type\ changes\ the\ style\ of\ the\ car\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAutoPackage()
+comment3.text=\r\n\ Get\ the\ package\ type\ of\ the\ car\r\n\ \r\n\ @return\ autoPackage\ \ The\ package\ type\ of\ the\ car\r\n
+comment4.params=newAutoPackage
+comment4.target=void\ setAutoPackage(java.lang.String)
+comment4.text=\r\n\ Set\ the\ package\ type\ of\ the\ car.\r\n\ \r\n\ @param\ newWheelSize\ \ \ changes\ the\ car's\ package\ type\r\n
+comment5.params=
+comment5.target=void\ printDetails()
+comment5.text=\r\n\ Print\ to\ the\ screen\ the\ description\ of\ the\ car\ object\r\n
+numComments=6

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AccountServer()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AccountServer\r\n
+comment1.params=depositAmt
+comment1.target=void\ depositAttempt(int)
+comment1.text=\r\n\ Deposit\ attempt\ method.\r\n\ @param\ int\ deposit\ amount\r\n\ @throws\ a\ negative\ deposit\ amount.\r\n
+comment2.params=withdrawAmt
+comment2.target=void\ withdrawAttempt(int)
+comment2.text=\r\n\ Withraw\ amount\ method.\r\n\ @param\ int\ withraw\ amount.\r\n\ @throws\ a\ negative\ withdrawn\ amount.\r\n
+numComments=3

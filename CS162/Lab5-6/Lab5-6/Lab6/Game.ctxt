@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ The\ main\ method\ for\ launching\ the\ game.\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Create\ the\ game\ and\ initialise\ its\ internal\ map.\r\n
+comment2.params=
+comment2.target=void\ createRooms()
+comment2.text=\r\n\ Create\ all\ the\ rooms\ and\ link\ their\ exits\ together\ and\ also\ sets\ the\ GUI's\ current\ room.\r\n
+comment3.params=
+comment3.target=void\ printWelcome()
+comment3.text=\r\n\ Print\ out\ the\ opening\ message\ for\ the\ player.\r\n
+numComments=4

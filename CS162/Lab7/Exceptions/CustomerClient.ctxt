@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CustomerClient()
+comment0.text=\r\n\ Default\ constructor\r\n
+comment1.params=deposit\ withdraw
+comment1.target=CustomerClient(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CustomerClient\r\n\ @param\ The\ amount\ we\ want\ to\ deposit\r\n\ @param\ the\ amount\ we\ want\ to\ withdraw\r\n
+comment2.params=amtToDeposit
+comment2.target=void\ customerDeposit(int)
+comment2.text=\r\n\ Customer\ deposit\ method.\r\n\ @param\ int\ amount\ to\ deposit.\r\n
+comment3.params=amtToWithdraw
+comment3.target=void\ customerWithdrawal(int)
+comment3.text=\r\n\ Customer\ Withdrawal\ method.\r\n\ @param\ int\ amount\ to\ withdraw.\r\n
+numComments=4

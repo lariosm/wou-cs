@@ -1,0 +1,23 @@
+
+ArrrayLists
+The DynamicArrayOfInt class could be used in any situation where an array of int with no preset limit on the size is needed. However, if we want to store Shapes instead of ints, we would have to define a new class to do it. That class, probably named "DynamicArrayOfShape", would look exactly the same as the DynamicArrayOfInt class except that everywhere the type "int" appears, it would be replaced by the type "Shape". Similarly, we could define a DynamicArrayOfDouble class, a DynamicArrayOfPlayer class, and so on. But there is something a little silly about this, since all these classes are close to being identical. It would be nice to be able to write some kind of source code, once and for all, that could be used to generate any of these classes on demand, given the type of value that we want to store. This would be an example of generic programming. Some programming languages, such as C++, have support for generic programming. Java does not, at least not quite. We can come close to generic programming in Java by working with data structures that contain elements of type Object.
+
+In Java, every class is a subclass of the class named Object. This means that every object can be assigned to a variable of type Object. Any object can be put into an array of type Object[]. If a subroutine has a formal parameter of type Object, than any object can be passed to the subroutine as an actual parameter. If we defined a DynamicArrayOfObject class, then we could store objects of any type. This is not true generic programming, and it doesn't apply to the primitive types such as int and double. But it does come close. In fact, there is no need for us to define a DynamicArrayOfObject class. Java already has a standard class named ArrayList that serves much the same purpose. The ArrayList class is in the package java.util, so if you want to use the ArrayList class in a program, you should put the directive "import java.util.ArrayList;" or "import java.util.*;" at the beginning of your source code file.
+
+The ArrayList class differs from my DynamicArrayOfInt class in that an ArrayList object always has a definite size, and it is illegal to refer to a position in the ArrayList that lies outside its size. In this, an ArrayList is more like a regular array. However, the size of an ArrayList can be increased at will. The ArrayList class defines many instance methods. I'll describe some of the most useful. Suppose that list is a variable of type ArrayList.
+
+list.size() -- This function returns the current size of the ArrayList. The only valid positions in the list are numbers in the range 0 to list.size()-1. Note that the size can be zero. A call to the default constructor new ArrayList() creates an ArrayList of size zero. 
+
+list.add(obj) -- Adds an object onto the end of the ArrayList, increasing the size by 1. The parameter, obj, can refer to an object of any type, or it can be null. 
+
+list.get(N) -- This function returns the value stored at position N in the ArrayList. N must be an integer in the range 0 to list.size()-1. If N is outside this range, an error occurs. Calling this function is similar to referring to A[N] for an array, A, except that you can't use list.get(N) on the left side of an assignment statement. 
+
+list.set(N, obj) -- Assigns the object, obj, to position N in the ArrayList, replacing the item previously stored at position N. The integer N must be in the range from 0 to list.size()-1. A call to this function is equivalent to the command A[N] = obj for an array A. 
+
+list.remove(obj) -- If the specified object occurs somewhere in the ArrayList, it is removed from the list. Any items in the list that come after the removed item are moved down one position. The size of the ArrayList decreases by 1. If obj occurs more than once in the list, only the first copy is removed. 
+
+list.remove(N) -- For an integer, N, this removes the N-th item in the ArrayList. N must be in the range 0 to list.size()-1. Any items in the list that come after the removed item are moved down one position. The size of the ArrayList decreases by 1. 
+
+list.indexOf(obj) -- A function that searches for the object, obj, in the ArrayList If the object is found in the list, then the position number where it is found is returned. If the object is not found, then -1 is returned. 
+
+For example, suppose again that players in a game are represented by objects of type Player. The players currently in the game could be stored in an ArrayList named players. This variable would be declared as

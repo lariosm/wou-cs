@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Creates,\ initialize,\ then\ prints\ the\ objects\ to\ the\ terminal\ window.\r\n
+comment1.params=
+comment1.target=OnStock()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ OnStock\r\n
+comment2.params=newVehicle
+comment2.target=void\ addVehicle(Vehicle)
+comment2.text=\r\n\ Add\ a\ vehicle\ object\ to\ the\ ArrayList\r\n\ \r\n\ @param\ newVehicle\ \ \ add\ a\ new\ Vehicle\ object\r\n
+comment3.params=
+comment3.target=void\ printAll()
+comment3.text=\r\n\ Prints\ a\ list\ of\ vehicles\ in\ the\ lot\ as\ well\ as\ the\ total\ count\r\n
+numComments=4

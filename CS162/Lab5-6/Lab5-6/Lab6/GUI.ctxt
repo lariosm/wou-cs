@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GUI()
+comment0.text=\r\n\ Initializes\ the\ GUI\r\n
+comment1.params=gameText
+comment1.target=void\ textToDisplay(java.lang.String)
+comment1.text=\r\n\ Prints\ game-related\ text\ to\ the\ text\ area.\r\n\ @param\ Game-related\ text\ to\ be\ printed.\r\n
+comment2.params=
+comment2.target=void\ buildFrame()
+comment2.text=\r\n\ This\ will\ build\ and\ implement\ the\ buttoms\ and\ image\ field.\ It\ also\ sets\r\n\ the\ action\ listener\ to\ the\ buttons.\ Currently\ there\ is\ only\ and\ Action\r\n\ Listener\ created\ for\ the\ North\ button.\r\n
+comment3.params=
+comment3.target=void\ addMenuBar()
+comment3.text=\r\n\ The\ creation\ of\ the\ menu\ bar\ to\ go\ along\ with\ the\ GUI.\r\n
+comment4.params=
+comment4.target=void\ setImage()
+comment4.text=\r\n\ Sets/changes\ the\ image\ that\ is\ matched\ with\ the\ current\ room\r\n
+comment5.params=direction
+comment5.target=void\ changeRoom(java.lang.String)
+comment5.text=\r\n\ This\ method\ will\ try\ and\ move\ the\ player\ in\ the\ direction\ they\ have\r\n\ selected.\ \r\n\ @peram\ String\ the\ direction\ the\ player\ selects.\r\n
+comment6.params=room
+comment6.target=void\ addCurrentRoom(Room)
+comment6.text=\r\n\ Adds\ the\ current\ room\ to\ its\ designated\ field.\r\n\ @param\ Add\ the\ room\ the\ player\ is\ currently\ in.\r\n
+numComments=7

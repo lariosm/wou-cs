@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=description
+comment0.target=TransporterRoom(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TransporterRoom\r\n
+comment1.params=direction
+comment1.target=Room\ getExit(java.lang.String)
+comment1.text=\r\n\ Overrides\ the\ getExit()\ method\ in\ Room\ class.\r\n\ \r\n\ @param\ direction\ \ \ Walk\ to\ any\ available\ path.\r\n\ @return\ \ \ The\ room\ the\ player\ will\ teleport\ to.\r\n
+numComments=2

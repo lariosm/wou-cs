@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=PrimeFinder(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PrimeFinder\r\n\ @param\ The\ integer\ we\ want\ to\ check\ against.\r\n
+comment1.params=n
+comment1.target=boolean\ prime(int)
+comment1.text=\r\n\ A\ "preliminary"\ checker\ to\ see\ if\ the\ integer\ value\ is\r\n\ a\ prime\ number\r\n\ @param\ the\ value\ we\ want\ to\ check.\r\n\ @return\ whether\ the\ value\ is\ a\ prime\ number.\r\n
+comment2.params=n\ testDivisor
+comment2.target=boolean\ primeHelper(int,\ int)
+comment2.text=\r\n\ Here,\ we\ try\ more\ elaborate\ ways\ to\ check\ if\ the\ integer\r\n\ value\ is\ a\ prime\ number\r\n\ @param\ \r\n
+numComments=3
