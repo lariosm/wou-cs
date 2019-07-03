@@ -1,0 +1,25 @@
+﻿<h1>Internet Language Translator</h1>
+
+@*Input box*@
+<form action="/Home/Index" method="get">
+    <div class="row">
+        <div class="col-sm-12">
+            <input name="text" id="textbox" placeholder="Start typing in your message here..." />
+        </div>
+    </div>
+</form>
+
+<br />
+<br />
+
+@*Displays plain text and GIF images*@
+<div class="row">
+    <div id="live-display">
+        <!--Text and GIF stickers will appear as the user types-->
+    </div>
+</div>
+
+@section GiphyScript
+{
+    <script src="~/Scripts/giphy.js" type="text/javascript"></script>
+}

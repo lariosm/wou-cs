@@ -1,0 +1,46 @@
+body {
+  background-color: #3884ff;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container-fullwidth {
+  background-color: #fffa00;
+}
+
+.content {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+}

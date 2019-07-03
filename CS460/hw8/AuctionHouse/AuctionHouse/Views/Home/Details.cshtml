@@ -1,0 +1,90 @@
+﻿@model AuctionHouse.Models.Item
+
+@{
+    ViewBag.Title = "Listing details";
+}
+
+<div class="container">
+    <h2>Listing details</h2>
+
+        <h4>@Html.DisplayFor(model => model.Name)</h4>
+        <hr />
+        <div class="row">
+            <div class="col-sm-6">
+                <dl class="row">
+                    @*Displays item information*@
+                    <dt class="col-sm-3">
+                        <input type="hidden" id="listing-id" value="@Model.ID">
+                        @Html.DisplayNameFor(model => model.ID):
+                    </dt>
+
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.ID)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Seller.Name):
+                    </dt>
+
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Seller.Name)
+                    </dd>
+
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Name):
+                    </dt>
+
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Description):
+                    </dt>
+
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Description)
+                    </dd>
+
+                </dl>
+            </div>
+
+            @*Placeholder image for item*@
+            <div class="col-sm-6">
+                <img src="https://via.placeholder.com/175" class="d-block mx-auto" />
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h5>Bids on this item</h5>
+            </div>
+            <div class="col-sm-6">
+                @Html.ActionLink("Place a bid", "PlaceBid", "Home", null, new { @class = "btn btn-primary float-right" })
+                @Html.ActionLink("Return to listings", "Listings", "Home", null, new { @class = "btn btn-secondary float-right", style = "margin-right: 5px;"})
+            </div>
+        </div>
+
+        @*Bids table (where bids will show up via JavaScript)*@
+        <table class="table">
+            <tr>
+                <th>
+                    Bidder
+                </th>
+                <th>
+                    Bid amount
+                </th>
+            </tr>
+        </table>
+
+        @*Displays message if there are no bids on this item*@
+        <h5 id="message" style="text-align:center"></h5>
+        <br />
+</div>
+
+@*JS script to be executed on this page*@
+@section BidScript
+{
+    <script type="text/javascript" src="~/Scripts/bids.js"></script>
+}
