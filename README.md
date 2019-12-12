@@ -15,6 +15,9 @@ This course introduced students to the concept of abstract data types and the al
 
 The labs were done in Java using Eclipse IDE.
 
+### CS360 - Programming Languages
+This course provided a comparative study of programming language paradigms and their application. Paradigms studied include imperative, functional, logic and object-oriented languages.
+
 ### CS361 - Data Structures II
 This course is a continuation of CS260 (Data Stuctures I) that focuses on exploring and analyzing more advanced algorithms.
 
@@ -23,4 +26,4 @@ The labs were done in Java using Eclipse IDE.
 ### CS460 - Software Engineering I
 This course introduced students to the fundamental principles and practices of software engineering.
 
-_Although the CS480 folder doesn't exist in this repository, you can find my work for this course at [https://mlarios1.github.io](https://mlarios1.github.io)_
+_You can find my work for this course at [https://mlarios1.github.io](https://mlarios1.github.io)_
