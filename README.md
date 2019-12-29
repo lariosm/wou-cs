@@ -26,4 +26,17 @@ The labs were done in Java using Eclipse IDE.
 ### CS460 - Software Engineering I
 This course introduced students to the fundamental principles and practices of software engineering.
 
-_You can find my work for this course at [https://mlarios1.github.io](https://mlarios1.github.io)_
+_You can find my work for this course at [https://lariosm.github.io](https://lariosm.github.io)_
+
+### CS465 - Microservices Architecture
+This course covered the basic concepts of microservices, including:
+* Familiarization with the core concepts of microservices
+* Learning about bounded contexts and the web APIs
+* The monolith problem and how that lead to the microservices pattern
+* Microservice domain models and data domains
+* Implementing microservices using modern languages and frameworks
+* The microservice development lifecycle
+* How microservices scale (both organizationally and physically)
+* Securing microservices
+
+_You can find my work for this course at [https://github.com/lariosm/cs465](https://github.com/lariosm/cs465)_
