@@ -40,3 +40,8 @@ This course covered the basic concepts of microservices, including:
 * Securing microservices
 
 _You can find my work for this course at [https://github.com/lariosm/cs465](https://github.com/lariosm/cs465)_
+
+### A120 - Foundations of Digital Art and Design
+This course introduced students to the use of personal computers in art and visual communications. Computer-imaging software, such as Adobe Photoshop, Adobe Illustrator and Adobe InDesign were used to create original art in a variety of final output formats.
+
+Although this course was not part of my computer science curriculum, I thought I'd add it in to demonstrate my digital art skills.
